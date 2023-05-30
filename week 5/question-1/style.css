@@ -5,14 +5,14 @@ body {
 }
 
 .container {
-    display: flex;
     height: 100vh;
 }
 
 .sidebar {
     float: left;
     background-color: #242B2E;
-    width: 300px;
+    width: 250px;
+    height: 100vh;
 }
 
 .image_container {
@@ -47,6 +47,7 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
+    float: inline-start;
 }
 
 .content h1 {
@@ -59,8 +60,8 @@ body {
 }
 
 .content .para_container {
-    margin: 5px 0;
-    padding: 10px 60px;
+    margin: 5px 0 5px 241px;
+    padding: 10px 65px;
     word-spacing: 5px;
     font-size: 1.2rem;
 }
@@ -72,7 +73,7 @@ body {
 .image_container_main {
     height: 300px;
     width: 500px;
-    margin: auto;
+    margin-left: 514px;
 }
 
 .image_container_main>img {
