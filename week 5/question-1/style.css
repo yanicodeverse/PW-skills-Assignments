@@ -10,9 +10,9 @@ body {
 }
 
 .sidebar {
-    flex-basis: 20%;
+    float: left;
     background-color: #242B2E;
-    width: 200px;
+    width: 300px;
 }
 
 .image_container {
