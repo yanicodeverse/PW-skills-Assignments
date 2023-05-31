@@ -1,0 +1,64 @@
+h1,
+h2 {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+/* Modal Styling */
+.modal {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.tnc {
+    max-height: 350px;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    text-align: start;
+    overflow-x: hidden;
+}
+
+.underline {
+    height: 1px;
+    width: 100%;
+    position: relative;
+    background-color: #C0C0C0;
+    margin: 2px 0;
+}
+
+.check {
+    margin: 5px 0;
+    text-align: start;
+}
+
+button {
+    margin: 20px 0;
+    width: 25%;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    background-color: #5A4BDA;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
