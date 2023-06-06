@@ -1,0 +1,89 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CAD5E2;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    color: #5A4BDA;
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+
+.course-card p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.course_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image_Container {
+    height: 180px;
+    width: 100%;
+}
+
+.image_Container img {
+    height: 100%;
+    width: 100%;
+}
+
+.course_card_heading h2 {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #5A4BDA;
+}
+
+.mentorAndDetail h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.mentorAndDetail h2 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
