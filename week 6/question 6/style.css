@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .search-engine h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #555555;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 5px;
+    width: 60%;
+}
+
+.search-bar .search-icon img {
+    position: relative;
+    width: 30px;
+}
+
+.input-search-bar {
+    position: relative;
+    width: 80%;
+}
+
+.input-search-bar input {
+    background-color: #202124;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+input:hover,
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.mic-icon img {
+    width: 30px;
+}
+
+.lens-icon img {
+    width: 30px;
+}
