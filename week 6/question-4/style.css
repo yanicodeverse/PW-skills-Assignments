@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    box-shadow: 1px 2px 10px #c5c5c5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    position: relative;
+    height: 70%;
+    width: 8%;
+    margin-right: 445px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gmail_logo {
+    position: relative;
+    height: 80%;
+    width: 34%;
+}
+
+.gmail_logo img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.google_text {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.google_text>p {
+    font-size: 1.2rem;
+    margin: 6px 0;
+    color: #6F7377;
+    font-weight: 500;
+}
+
+.aside {
+    position: relative;
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.forWork {
+    position: relative;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1A73E8;
+    font-weight: 600;
+    transition: .2s ease-out all;
+    cursor: pointer;
+}
+
+#for_work {
+    margin-right: 100px;
+}
+
+.forWork:hover {
+    color: #074feb;
+    background-color: #1a73e80c;
+}
+
+.sign_in {
+    position: relative;
+    height: 100%;
+    width: 20%;
+    border: 1px solid #DADCE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #1A73E8;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease-out all;
+}
+
+.sign_in:hover {
+    border-color: #1a73e8cc;
+    background-color: #1a73e80c;
+    color: #074feb;
+}
+
+.create_acc {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A73E8;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    transition: .2s ease-out all;
+    cursor: pointer;
+}
+
+.create_acc:hover {
+    background-color: #0846cc;
+}
+
+.container {
+    margin: 30px 0;
+    height: 72vh;
+    width: 100%;
+    display: flex;
+}
+
+.container .left {
+    position: relative;
+    height: 100%;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left .left_content {
+    position: relative;
+    height: 60%;
+    width: 70%;
+}
+
+.left_content_top {
+    height: 45%;
+    width: 100%;
+    position: relative;
+}
+
+.left_content_top h2 {
+    font-weight: 500;
+    font-size: 3.7rem;
+    line-height: 1;
+    margin: 0;
+    color: #202124;
+}
+
+.left_content_middle {
+    margin: 30px 0;
+    position: relative;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_content_middle p {
+    font-size: 1rem;
+    color: #5F6368;
+    word-spacing: 2px;
+}
+
+.left_content_bottom {
+    position: relative;
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .right_image {
+    position: relative;
+    height: 100%;
+    width: 51%;
+}
+
+.image_container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.image_container img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
