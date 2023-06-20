@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    background-color: #242B2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar>.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.logo>img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar>.navigation {
+    height: 40px;
+    width: 22%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>.navigation>ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar>.navigation>ul>li {
+    list-style: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.navbar>.login_btn>button {
+    padding: 5px 30px;
+    font-size: 1.1rem;
+    background-color: #0072E1;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    /* display: none; */
+}
+
+.navbar>.icon {
+    color: #fff;
+    display: none;
+}
+
+.navbar>.icon>i {
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar>.icon {
+        display: block;
+    }
+
+    .navbar>.login_btn {
+        display: none;
+    }
+
+    .navbar>.navigation {
+        display: none;
+    }
+}
