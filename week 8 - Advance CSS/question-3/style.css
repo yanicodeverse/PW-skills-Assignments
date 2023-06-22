@@ -1,0 +1,56 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 40vh;
+  background: linear-gradient(to left, #3351c3, #5799cf 70%);
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  transition: all .3s ease-out;
+  transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card .number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+
+.card .number p {
+  color: #fff;
+}
+
+.card .dates ul {
+  padding: 5% 0 5% 15%;
+}
+
+.card button {
+  background: linear-gradient(to left, #34c363, #45dddb 70%);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
