@@ -15,18 +15,73 @@ body {
     height: 100vh;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    background-color: #F1F1F1;
 }
 
 .container-form {
-    border: 1px solid palevioletred;
     height: 40%;
     width: 33%;
     display: flex;
     flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px gray;
 }
 
 .container-form>h3 {
     text-align: center;
-    font-size: 1.8rem;
-    margin-top: 2px;
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+form {
+    padding: 0 50px;
+}
+
+.username>p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.username>input {
+    width: 100%;
+    padding: 10px 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(75, 74, 74);
+    margin-bottom: 20px;
+}
+
+
+.password>p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.password>input {
+    width: 100%;
+    padding: 10px 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(75, 74, 74);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.btn>button {
+    width: 100%;
+    padding: 8px 30px;
+    font-size: 1.6rem;
+    background-color: #1E87F0;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
 }
