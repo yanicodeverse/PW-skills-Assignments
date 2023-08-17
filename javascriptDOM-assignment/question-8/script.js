@@ -15,6 +15,12 @@ function duration() {
     hours_span.innerHTML = hr
     minutes_span.innerHTML = min
     seconds_span.innerHTML = sec
+
+    let hrStr = hr.toString()
+    let minStr = min.toString()
+    let secStr = sec.toString()
+    let hex = `#${hrStr + minStr + secStr}`
+    document.body.style.backgroundColor = hex
 }
 
 setInterval(duration, 100)
