@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    transition: background-color 1s ease-in-out;
 }
 
 .container {
@@ -14,7 +15,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #121050;
 }
 
 .clock {

@@ -2,6 +2,11 @@ const seconds_span = document.querySelector('#seconds')
 const minutes_span = document.querySelector("#minutes")
 const hours_span = document.querySelector("#hours")
 
+function convertToHex(value) {
+    const hexValue = value.toString(16)
+    return hexValue.length === 1 ? '0' + hexValue : hexValue
+}
+
 function duration() {
     const date = new Date()
     let sec = date.getSeconds()
@@ -16,11 +21,9 @@ function duration() {
     minutes_span.innerHTML = min
     seconds_span.innerHTML = sec
 
-    let hrStr = hr.toString()
-    let minStr = min.toString()
-    let secStr = sec.toString()
-    let hex = `#${hrStr + minStr + secStr}`
-    document.body.style.backgroundColor = hex
+    let hexColor = `#${convertToHex(hr)}${convertToHex(min)}${convertToHex(sec)}`
+    console.log(hexColor)
+    document.body.style.backgroundColor = hexColor
 }
 
 setInterval(duration, 100)
