@@ -22,7 +22,6 @@ function duration() {
     seconds_span.innerHTML = sec
 
     let hexColor = `#${convertToHex(hr)}${convertToHex(min)}${convertToHex(sec)}`
-    console.log(hexColor)
     document.body.style.backgroundColor = hexColor
 }
 
